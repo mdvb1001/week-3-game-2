@@ -3,12 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <script type="text/javascript" src="assets/javascript/library.js"></script>
-  <script type="text/javascript" src="assets/javascript/game.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <title>Hangman Game!</title>
+ <!--  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
@@ -16,43 +14,37 @@
     <div class="jumbotron">
       <h1>Hangman Game For Real!</h1>
       <p>Guess the word...</p>
-      
-
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Panel title</h3>
+          <h3 class="panel-title">Word To Guess</h3>
         </div>
         <div class="panel-body">
-          Panel content
+          <h2 id="wordToGuess">_ _ _ _ _ _ _</h2>
         </div>
       </div>
-      
       <div class="panel panel-default">
         <div class="panel-body">
-          Basic panel example
+          Wrong Guesses: <span id="wrongGuesses"></span>
         </div>
       </div>
-      
       <div class="panel panel-default">
         <div class="panel-body">
-          Basic panel example
+          Guesses Left: <span id="numGuesses"></span>
         </div>
       </div>
-      
       <div class="panel panel-default">
         <div class="panel-body">
-          Basic panel example
+          Win Counter: <span id="winCounter"></span>
         </div>
       </div>
-
       <div class="panel panel-default">
         <div class="panel-body">
-          Basic panel example
+          Loss Counter: <span id="lossCounter"></span>
         </div>
       </div>
-
     </div>
   </div>
+  <script src="assets/javascript/logic.js"></script>
 </body>
 
 </html>
