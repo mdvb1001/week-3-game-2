@@ -91,7 +91,7 @@ function roundComplete() {
         document.getElementById("winCounter").innerHTML = winCount;
         setTimeout(function() {
                 startGame();
-            }, 1000);
+            }, 1500);
         
     }
 
