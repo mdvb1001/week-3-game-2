@@ -83,15 +83,17 @@ function roundComplete() {
     document.getElementById("wrongGuesses").innerHTML = wrongLetters.join(" ");
 
     // Check if user won
-    if (lettersInWord.toString() === blanksAndSucesses.toString()) {
+    if (lettersInWord.toString() == blanksAndSucesses.toString()) {
         // Update the win counter in the HTML
+        // document.getElementById("wordToGuess").innerHTML = blanksAndSucesses.join(" ");
         winCount++;
-        document.getElementById("wordToGuess").innerHTML = blanksAndSucesses.join(" ");
-        alert("You Won!");
         document.getElementById("winCounter").innerHTML = winCount;
+        setTimeout(function(){
+        		alert("You Won!");
+        	}, 500);
         setTimeout(function() {
                 startGame();
-            }, 1500);
+            }, 1000);
         
     }
 
@@ -101,6 +103,8 @@ function roundComplete() {
         alert("You Lost!");
         // Update the HTML 
         document.getElementById("lossCounter").innerHTML = lossCount;
+        
+
         startGame();
     }
 }
