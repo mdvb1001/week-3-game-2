@@ -1,7 +1,7 @@
 // GLOBAL VARIABLES
 // -----------------------------------------------------------------------
 // Arrays and Variables for holding data 
-var wordOptions = ["pluto", "mars", "venus", "jupiter", "neptune"];
+var wordOptions = ["Commando", "Die Hard", "Predator", "First Blood", "The Terminator", "Aliens", "Raiders of the Lost Ark", "Lethal Weapon", "Top Gun", "Robocop", "Conan the Barbarian", "Cobra", "Beverly Hills Cop", "The Untouchables", "The Delta Force", "Highlander", "Escape From New York", "Sudden Impact", "Frantic", "The Dead Pool", "Karate Kid", "Kickboxer", "Red Dawn", "Big Trouble in Little China", "Maximum Overdrive", "Scarface", "Blade Runner", "Tron", "The Princess Bride", "An American Werewolf in London", "Indiana Jones and the Temple of Doom", "Above the Law"];
 var selectedWord = "";
 var lettersInWord = [];
 var numBlanks = 0;
@@ -12,7 +12,7 @@ var wrongLetters = [];
 
 var winCount = 0;
 var lossCount = 0;
-var guessesLeft = 9;
+var guessesLeft = 12;
 
 
 // FUNCTIONS (reusable blocks of code that I will call upon when needed)
