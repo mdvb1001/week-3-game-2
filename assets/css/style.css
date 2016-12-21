@@ -1,7 +1,22 @@
 body {
-	background-image: url('../images/highlander.jpg');
+	background-image: url('../images/thething.jpg');
+
 }
 
 .jumbotron {
-	background-image: url('../images/highlander.jpg');
+	background: rgba(229, 229, 229, .20);
+}
+
+
+.instruct {
+	color: white;
+}
+
+.panel {
+	background-color: black;
+	color: white;
+}
+
+.panel-default{
+	background-color: black;
 }

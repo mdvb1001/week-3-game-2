@@ -1,7 +1,7 @@
 // GLOBAL VARIABLES
 // -----------------------------------------------------------------------
 // Arrays and Variables for holding data 
-var wordOptions = ["Commando", "Die Hard", "Predator", "First Blood", "The Terminator", "Aliens", "Raiders of the Lost Ark", "Lethal Weapon", "Top Gun", "Robocop", "Conan the Barbarian", "Cobra", "Beverly Hills Cop", "The Untouchables", "The Delta Force", "Highlander", "Escape From New York", "Sudden Impact", "Frantic", "The Dead Pool", "Karate Kid", "Kickboxer", "Red Dawn", "Big Trouble in Little China", "Maximum Overdrive", "Scarface", "Blade Runner", "Tron", "The Princess Bride", "An American Werewolf in London", "Indiana Jones and the Temple of Doom", "Above the Law"];
+var wordOptions = ["commando", "die hard", "predator", "first blood", "the terminator", "aliens", "raiders of the lost ark", "lethal weapon", "top gun", "robocop", "conan the barbarian", "cobra", "beverly hills cop", "the untouchables", "the delta force", "highlander", "escape from new york", "sudden impact", "frantic", "the dead pool", "karate kid", "kickboxer", "red dawn", "big trouble in little china", "maximum overdrive", "scarface", "blade runner", "tron", "the princess bride", "an american werewolf in london", "indiana jones and the temple of doom", "above the law", "the exterminator"];
 var selectedWord = "";
 var lettersInWord = [];
 var numBlanks = 0;
@@ -24,7 +24,7 @@ function startGame() {
 
     //  Reset 
 
-    guessesLeft = 9;
+    guessesLeft = 12;
     wrongLetters = [];
     blanksAndSucesses = [];
 
